@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'allshared'
-    spec.version                  = '0.1.0'
-    spec.homepage                 = 'https://www.touchlab.co'
+    spec.version                  = '0.2.0'
+    spec.homepage                 = 'https://github.com/hu5980/KMMBridgeCocoaPodsQuickStart'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = 'BSD'

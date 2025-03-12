@@ -34,11 +34,11 @@ jobs:
           file: ./gradle.properties
           property: LIBRARY_VERSION
 
-      - uses: extractions/netrc@v1
-        with:
-          machine: maven.pkg.github.com
-          username: "cirunner"
-          password: ${{ secrets.GITHUB_TOKEN }}
+#      - uses: extractions/netrc@v1
+#        with:
+#          machine: maven.pkg.github.com
+#          username: "cirunner"
+#          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Print versionPropertyValue
         id: output
